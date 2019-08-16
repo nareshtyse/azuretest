@@ -1,3 +1,4 @@
+$Credential = Get-Credential
 Connect-AzAccount
 $AdminUsername=nareshbitla 
 $Adminpasswd = ConvertTo-SecureString Nareshbitla_1205 -AsPlainText -Force
